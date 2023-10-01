@@ -1,0 +1,36 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.box{
+  min-height: 500px;
+  width: 400px;
+  background: linear-gradient(135deg, rgba(0,176,182,1) 0%, rgba(10,67,126,1) 100%) !important;
+  border: 0px !important;
+  color: $light-bg-subtle !important;
+
+  .searchIcon{
+    min-height: 50px;
+    width: 75px;
+    background-color: white !important;
+  }
+
+  .img{
+    max-width: 125px !important;
+  }
+
+  .windSpeed{
+    padding: 5px;
+  }
+  .humidity{
+    padding: 5px;
+  }
+}
+
