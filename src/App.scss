@@ -1,36 +1,43 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
 
 *{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: 'Antic', sans-serif;
 }
-
-.box{
-  min-height: 500px;
-  width: 400px;
+.App{
   background: linear-gradient(135deg, rgba(0,176,182,1) 0%, rgba(10,67,126,1) 100%) !important;
-  border: 0px !important;
+}
+.box{
+  min-height: auto;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3)!important;
   color: $light-bg-subtle !important;
-
+  padding: 20px 0px 20px 0px;
   .searchIcon{
     min-height: 50px;
     width: 75px;
     background-color: white !important;
+    cursor: pointer;
   }
-
   .img{
     max-width: 125px !important;
   }
-
   .windSpeed{
     padding: 5px;
   }
   .humidity{
     padding: 5px;
+  }
+  h5{
+    font-family: 'Viga', sans-serif;
   }
 }
 
